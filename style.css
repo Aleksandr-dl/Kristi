@@ -1,0 +1,14 @@
+h1 {
+    background-color: coral;
+}
+.grey {
+    color: gray;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
