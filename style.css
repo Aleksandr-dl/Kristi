@@ -1,16 +1,30 @@
 h1 {
-    background-color: coral;
+    background-color: #fe6637;
+}
+h2 {
+    background-color: #ffac6b;
 }
 .grey {
-    color: gray;
+    color: black;
     text-align: center;
+}
+.light-grey {
+    text-align: center;
+}
+ul {
+    padding: 0;
 }
 li {
     list-style-type: none;
 }
 
 a {
+    color: black;
     text-decoration: none;
+}
+a:hover {
+    opacity: 0.5;
+    transition: 0.5s;
 }
 .button-send {
     background: #5a98d0;
@@ -44,6 +58,7 @@ a {
     width: 300px;
     padding: 25px;
     border: 1px solid black; 
+    
   }
   
   .id2 {
@@ -63,4 +78,55 @@ a {
   }
   .fr {
       clear: both;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 1em;
+    box-sizing: border-box;
+
+  }
+  .menu__list {
+      border: 1px solid #000;
+      width: 200px;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      
+      
+  }
+  .shine-button {
+    text-decoration: none;
+    
+    padding: 10px 30px;
+    margin-top: 10px ;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fe6637;
+    transition: .2s ease-in-out;
+  }
+  .shine-button:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
+  }
+  .shine-button:hover {
+    background: #fe6637;
+    color: #fff;
+  }
+  .shine-button:hover:before {
+    left: 150px;
+    transition: .5s ease-in-out;
+  }
+  .my_button {
+      margin-top: 10px;
   }
