@@ -12,3 +12,55 @@ li {
 a {
     text-decoration: none;
 }
+.button-send {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(15, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+.input-area {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.text {
+    border: 1px solid #356EAD;    
+    height: 250px;
+    width: 350px;
+    padding: 46px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.id1 {
+    float: right;
+    width: 300px;
+    padding: 25px;
+    border: 1px solid black; 
+  }
+  
+  .id2 {
+    font-size: 18px;
+  }
+  .img_350z {
+      width: inherit;
+  } 
+  .footer {
+      clear: both;
+  }
+  .cristi {
+      float: left;
+      width: 300px;
+      padding: 25px;
+      border: 1px solid black;
+  }
+  .fr {
+      clear: both;
+  }
