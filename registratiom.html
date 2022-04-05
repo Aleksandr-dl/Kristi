@@ -1,4 +1,14 @@
-<h1>Registration</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 class="grey">Registration</h1>
 <ul>
 	<li><a id="top" href="index.html">Главная</a></li>
 	<li><a href="contacts.html">КОнтакты</a></li>
@@ -6,20 +16,26 @@
 	<li><a href="registratiom.html">Регистрация</a></li>
 </ul>
 <form action="#">
-Имя <input type="text" placeholder="ФИО"> <br>
-Пароль <input type="password" placeholder="Пароль"> <br>
-Почта <input type="email" placeholder="Mail@mail.ru"> <br>
-Дата рождения <input type="date" ><br>
+Имя <input class="input-area" type="text" placeholder="ФИО"> <br>
+Пароль <input class="input-area" type="password" placeholder="Пароль"> <br>
+Почта <input class="input-area" type="email" placeholder="Mail@mail.ru"> <br>
+Дата рождения <input class="input-area" type="date" ><br>
 Ваши увлечения <br>
-<label>It <input type="checkbox"></label>
-<label>Sport <input type="checkbox"></label>
-<label>Alcohol <input type="checkbox"></label>
-<label>Photo <input type="checkbox"></label>
-<label>Bike <input type="checkbox"></label> <br>
+<label>It <input class="input-area" type="checkbox"></label>
+<label>Sport <input class="input-area" type="checkbox"></label>
+<label>Alcohol <input class="input-area" type="checkbox"></label>
+<label>Photo <input class="input-area" type="checkbox"></label>
+<label>Bike <input class="input-area" type="checkbox"></label> <br>
 Sex:<br>
-M <input type="radio" name="pol"> 
-W <input type="radio" name="pol"> <br>
-<textarea name="" id="" cols="30" rows="10"></textarea> <br>
-<button type="submit"> Send </button>
-<button type="reset"> Clean </button>
+M <input class="input-area" type="radio" name="pol"> 
+W <input class="input-area" type="radio" name="pol"> <br>
+<textarea class="input-area" name="" id="" cols="30" rows="10"></textarea> <br>
+<div>
+	<button class="button-send" type="submit"> Send </button>
+    <button class="button-send" type="reset"> Clean </button>
+</div>
+
 </form>
+</body>
+</html>
+
