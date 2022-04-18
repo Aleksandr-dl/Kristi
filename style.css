@@ -1,3 +1,4 @@
+
 h1 {
     background-color: #fe6637;
 }
@@ -13,14 +14,17 @@ h2 {
 }
 ul {
     padding: 0;
+    margin: 0;
 }
 li {
     list-style-type: none;
+    text-transform: uppercase;
 }
 
 a {
     color: black;
     text-decoration: none;
+    
 }
 a:hover {
     opacity: 0.5;
@@ -83,7 +87,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     
-    padding: 1em;
+    
     box-sizing: border-box;
 
   }
@@ -130,3 +134,39 @@ a:hover {
   .my_button {
       margin-top: 10px;
   }
+  .super-button {
+      padding-left: 50%;
+  }
+  .footer {
+      background-color: gray;
+  }
+  .button-top {
+    
+    width: 50px;    
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fe6637;
+    transition: .2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #fff;
+    
+      }
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-contakts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer_contacts {
+    margin-top: 48%;
+}
